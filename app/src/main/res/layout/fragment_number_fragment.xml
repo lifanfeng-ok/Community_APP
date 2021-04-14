@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".number_fragment">
+
+    <LinearLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back2"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="训练项目"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <View
+            android:id="@+id/v_dashLine"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/dashline2" />
+        <Button
+            android:id="@+id/number_situp"
+            android:layout_width="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="52dp"
+            android:textColor="#ffffff"
+            android:text="仰卧起坐"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/shape_big_login_btn"
+            />
+        <View
+            android:id="@+id/v_dashLine2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/dashline2" />
+        <Button
+            android:id="@+id/number_squat"
+            android:layout_width="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="52dp"
+            android:textColor="#ffffff"
+            android:text="深蹲"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/shape_big_login_btn"
+            />
+        <View
+            android:id="@+id/v_dashLine3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/dashline2" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myRegular_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.yuan.calendardemo.MainActivity"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="上一个月"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="0dp"
+                android:text="2021年4月"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="40dp" />
+
+            <Button
+                android:text="下一个月"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+        <com.example.community.MyCalendarView
+            android:id="@+id/calender"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:background="@drawable/video_info"
+            android:orientation="horizontal">
+<!--            <ImageView-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:src="@mipmap/ic_control_point" />-->
+            <Button
+                android:id="@+id/clock"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="+打卡"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:backgroundTint="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                 />
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

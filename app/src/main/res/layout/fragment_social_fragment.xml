@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Social_fragment">
+    <LinearLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/skin_topbar_bg_color">
+<!--            <ImageView-->
+<!--                android:id="@+id/back"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:src="@mipmap/ic_arrow_back_ios"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_alignParentStart="true" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="推荐用户"
+                android:textColor="@color/skin_text_white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/video_info"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:text="与下列用户有共同关注"
+                android:layout_marginStart="18dp" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/common_list"
+            android:layout_width="match_parent"
+            android:layout_height="212dp" />
+<!--        <View-->
+<!--            android:id="@+id/v_dashLine"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginLeft="3dp"-->
+<!--            android:layout_marginRight="3dp"-->
+<!--            android:background="@drawable/dashline3" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/video_info"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:text="可能感兴趣的用户"
+                android:layout_marginStart="18dp" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/potential_list"
+            android:layout_width="match_parent"
+            android:layout_height="212dp" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#344261">
+        <ImageView
+            android:id="@+id/back666"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_arrow_back_ios"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="打卡界面"
+            android:textColor="@color/skin_text_white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/video_info"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:text="运动类型："
+                android:textSize="16sp" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGroup"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="0dp"
+                    android:textSize="14sp"
+                    android:id="@+id/yangwo"
+                    android:text="仰卧起坐"
+                    android:layout_marginEnd="0dp" />
+
+                <RadioButton
+                    android:id="@+id/shendun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="深蹲"
+                    android:textSize="14sp" />
+                <RadioButton
+                    android:id="@+id/other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="其他"
+                    android:textSize="14sp" />
+<!--                <RadioButton-->
+<!--                    android:id="@+id/qixie"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_marginEnd="10dp"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:text="器械"-->
+<!--                    android:textSize="14sp" />-->
+            </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            >
+<!--        <ImageView-->
+<!--            android:id="@+id/searched"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:layout_marginStart="1dp"-->
+<!--            android:layout_marginLeft="2dp"-->
+<!--            android:src="@mipmap/ic_border_color" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="60dp"
+                android:textColor="@color/black"
+                android:text="打卡留言:"
+                android:textSize="16sp" />
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="230dp"
+            android:layout_height="100dp"
+            android:hint="  想说点什么...."
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_bg"
+            android:textColorHint="#737373"
+            android:inputType="textMultiLine"
+            android:textSize="15sp"
+            android:layout_marginStart="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/black"
+                android:text="运动时间："
+                android:textSize="16sp" />
+            <Spinner
+                android:entries="@array/order"
+                android:id="@+id/spinner"
+                android:spinnerMode="dropdown"
+                android:layout_width="180dp"
+                android:background="@drawable/spinner"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="45dp">
+        <Button
+            android:id="@+id/clock_login"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="65dp"
+            android:layout_centerInParent="true"
+            android:background="#009393"
+            android:text="打卡"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_marginStart="95dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

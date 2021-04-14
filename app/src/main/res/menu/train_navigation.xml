@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_time"
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/time_mode" />
+    <item
+        android:id="@+id/navigation_number"
+        android:icon="@drawable/ic_alarm_add"
+        android:title="@string/number_mode" />
+</menu>

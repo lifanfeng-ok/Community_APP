@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/skin_topbar_bg_color">
+        <ImageView
+            android:id="@+id/edit_back"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_arrow_back_ios"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="修改信息"
+            android:textColor="@color/skin_text_white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/video_info"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:text="用户名: "
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:hint=" mike "
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edit_bg"
+                android:textColorHint="#737373"
+                android:focusable="false"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="12dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:text="手机号: "
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:hint=" 输入手机号"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edit_bg"
+                android:textColorHint="#737373"
+                android:textSize="18sp"
+                android:layout_marginStart="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:text="密码: "
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/edit_password"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:hint=" 请输入密码"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edit_bg"
+                android:textColorHint="#737373"
+                android:textSize="18sp"
+                android:inputType="textPassword"
+                android:layout_marginStart="38dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:text="确认密码: "
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/edit_re_password"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:hint=" 确认密码"
+                android:inputType="textPassword"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edit_bg"
+                android:textColorHint="#737373"
+                android:textSize="18sp"
+                android:layout_marginStart="2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            >
+            <!--        <ImageView-->
+            <!--            android:id="@+id/searched"-->
+            <!--            android:layout_width="40dp"-->
+            <!--            android:layout_height="25dp"-->
+            <!--            android:layout_marginStart="1dp"-->
+            <!--            android:layout_marginLeft="2dp"-->
+            <!--            android:src="@mipmap/ic_border_color" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="60dp"
+                android:textColor="@color/black"
+                android:text="简介:"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/edit_info"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:hint="  个人简介"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edit_bg"
+                android:textColorHint="#737373"
+                android:inputType="textMultiLine"
+                android:textSize="15sp"
+                android:layout_marginStart="44dp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="45dp">
+            <Button
+                android:id="@+id/edit_button"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="65dp"
+                android:layout_centerInParent="true"
+                android:background="#009393"
+                android:text="提交修改"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_marginStart="95dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
