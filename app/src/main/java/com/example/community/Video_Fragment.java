@@ -37,6 +37,7 @@ import java.util.regex.Pattern;
 
 public class Video_Fragment extends Fragment {
     private RecyclerView recyclerView;
+    private RecyclerView recyclerView2;
     public EditText search;
     public ImageView searched;
     public static Handler handler=new Handler();
@@ -83,6 +84,12 @@ public class Video_Fragment extends Fragment {
             new Thread(new MyThread()).start();
         }
     }
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        datas.clear();
+//        new Thread(new MyThread()).start();
+//    }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {

@@ -101,12 +101,18 @@ public class register extends Activity {
                 }
                     if(phone2.length()!=11){
                         dialog.dismiss();
-                        phone.setError("请输入11位手机号");
+//                        phone.setError("请输入11位手机号");
+                        Toast toast = Toast.makeText(register.this,"请输入11位数手机号", Toast.LENGTH_LONG);
+                        toast.setGravity(Gravity.CENTER, 0, 0);
+                        toast.show();
                         return;
                     }
                     else if (!isMobile(phone2)){
                         dialog.dismiss();
-                        phone.setError("请输入正确的手机号");
+//                        phone.setError("请输入正确的手机号");
+                        Toast toast = Toast.makeText(register.this,"请输入正确的手机号", Toast.LENGTH_LONG);
+                        toast.setGravity(Gravity.CENTER, 0, 0);
+                        toast.show();
                         return;
                     }
                 new Thread(new MyThread()).start();

@@ -59,6 +59,7 @@ public class edit_info extends Activity {
         username=it.getStringExtra("name");
         user_phone=it.getStringExtra("phone");
         name.setText(username);
+        name.setFocusable(false);
         phone.setText(user_phone);
         edit.setOnClickListener(listener);
     }

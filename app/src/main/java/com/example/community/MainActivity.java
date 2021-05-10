@@ -123,7 +123,7 @@ public class MainActivity extends Activity {
                             }
                             else {
                                 dialog.dismiss();
-                                Toast toast = Toast.makeText(MainActivity.this,"账户名或密码错误", Toast.LENGTH_SHORT);
+                                Toast toast = Toast.makeText(MainActivity.this,"账号名或密码错误", Toast.LENGTH_SHORT);
                                 toast.setGravity(Gravity.CENTER, 0, 0);
                                 toast.show();
                             }
