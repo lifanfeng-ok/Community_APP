@@ -20,6 +20,6 @@
     <string name="other_regular">朋友打卡</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="time_mode">计时模式</string>
-    <string name="number_mode">计数模式</string>
+    <string name="time_mode">定时模式</string>
+    <string name="number_mode">定数模式</string>
 </resources>

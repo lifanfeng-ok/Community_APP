@@ -57,7 +57,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="165dp"
                 android:layout_height="50dp"
-                android:hint="请输入运动个数(秒)"
+                android:hint="请输入运动个数(个)"
                 android:inputType="number"
                 >
             </EditText>
