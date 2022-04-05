@@ -3,13 +3,7 @@ App
 
 根据Flask项目 做的一个相对应的APP， 数据由Flask创建的服务器提供
 
-<img width="193" alt="image" src="https://user-images.githubusercontent.com/74596877/161688366-581308ce-b390-498e-9447-ef4a5b52277f.png"> <img width="189" alt="image" src="https://user-images.githubusercontent.com/74596877/161688386-e400ad8b-fdef-4124-a13f-f6d49ef0023d.png">
-
-
-<img width="194" alt="image" src="https://user-images.githubusercontent.com/74596877/161688410-427dd32d-9f34-489c-a166-7a8912a6ff03.png">
-
-
-<img width="190" alt="image" src="https://user-images.githubusercontent.com/74596877/161688426-ff07ae07-f9f8-4401-b66e-1e21a32169ef.png">
+<img width="193" alt="image" src="https://user-images.githubusercontent.com/74596877/161688366-581308ce-b390-498e-9447-ef4a5b52277f.png"> <img width="189" alt="image" src="https://user-images.githubusercontent.com/74596877/161688386-e400ad8b-fdef-4124-a13f-f6d49ef0023d.png"> <img width="194" alt="image" src="https://user-images.githubusercontent.com/74596877/161688410-427dd32d-9f34-489c-a166-7a8912a6ff03.png"> <img width="190" alt="image" src="https://user-images.githubusercontent.com/74596877/161688426-ff07ae07-f9f8-4401-b66e-1e21a32169ef.png">
 
 
 <img width="190" alt="image" src="https://user-images.githubusercontent.com/74596877/161688440-109216a4-f60f-46dd-92ae-abaecf450bdb.png">
