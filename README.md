@@ -1,7 +1,7 @@
 # Community_APP
 App
 
-* 根据Flask项目 做的一个相对应的APP， 数据由Flask创建的服务器（连接MySQL）提供,相比Web, App多了`打卡模块`和`实时训练模块`
+* 与Flask项目相对应的APP， 数据由Flask创建的服务器（连接MySQL）提供,相比Web, App多了`打卡模块`和`实时训练模块`
 
 ![image](https://user-images.githubusercontent.com/74596877/164987399-17b85420-5136-4e44-b929-6adb44473b9e.png)
 
