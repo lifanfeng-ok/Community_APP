@@ -5,9 +5,8 @@ App
 
 ![image](https://user-images.githubusercontent.com/74596877/164987399-17b85420-5136-4e44-b929-6adb44473b9e.png)
 
-实现计数功能时，APP使用了Android所提供的传感器接口. 
-
-简易的计数算法：
+实现计数功能时，APP使用了Android所提供的传感器接口.<br/> 
+`简易的计数算法`：
 ![image](https://user-images.githubusercontent.com/74596877/164987909-8511b445-cda2-4b7a-a67f-b95b7bb046b0.png)
 ![image](https://user-images.githubusercontent.com/74596877/164987922-4b99c5ab-8e27-46c0-b97f-f54b5d2d5ea6.png)
 
